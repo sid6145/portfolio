@@ -1,13 +1,14 @@
 import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Header (){
 
     return(
-        <Navbar className="px-5 " collapseOnSelect expand="sm" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Siddhant</Navbar.Brand>
+    <>        
+        <Navbar className="px-4 py-3" collapseOnSelect expand="sm" variant="dark" style={{backgroundColor:"#283149"}} >
+        <Navbar.Brand href="#home" style={{fontFamily:"cursive", color:"#DBEDF3", fontSize:"22px"}}>Siddhant Deshmukh</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
@@ -17,9 +18,9 @@ function Header (){
             <Nav.Link >SKILLS</Nav.Link>
             <Nav.Link >CONTACT</Nav.Link>
           </Nav>
-        
         </Navbar.Collapse>
       </Navbar>
+    </>
     )
 }
 
