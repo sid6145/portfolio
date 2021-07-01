@@ -1,0 +1,15 @@
+.navlink{
+    color: #DBEDF3;
+    margin: 0 10px;
+    padding: 5px 20px;
+    transition: 0.4s ease;
+    font-weight: 500;
+}
+
+.navlink:hover{
+    cursor: pointer;
+    background-color: #DBEDF3;
+    color: #070D59 ;
+    border-radius: 3px;
+
+}

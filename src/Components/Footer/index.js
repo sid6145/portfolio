@@ -8,12 +8,13 @@ function Footer() {
     return (
       
         <footer style={{
-            position:"fixed", 
+            position:"relative", 
             bottom:"0", 
+            fontSize: "15px",
             textAlign:"center", 
             width:"100%", 
             padding:"10px 5px", 
-            backgroundColor:"#283149",
+            backgroundColor:"#1F3C88",
             color:"#DBEDF3"
             }}>
 

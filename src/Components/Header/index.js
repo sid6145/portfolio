@@ -1,22 +1,23 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
 
 
 function Header (){
 
     return(
     <>        
-        <Navbar className="px-4 py-3" collapseOnSelect expand="sm" variant="dark" style={{backgroundColor:"#283149"}} >
+        <Navbar className="px-4 py-3" collapseOnSelect expand="sm" variant="dark" style={{backgroundColor:"#070D59"}} >
         <Navbar.Brand href="#home" style={{fontFamily:"cursive", color:"#DBEDF3", fontSize:"22px"}}>Siddhant Deshmukh</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link >HOME</Nav.Link>
-            <Nav.Link >ABOUT</Nav.Link>
-            <Nav.Link >PROJECTS</Nav.Link>
-            <Nav.Link >SKILLS</Nav.Link>
-            <Nav.Link >CONTACT</Nav.Link>
+            <Nav className="navlink">HOME</Nav>
+            <Nav  className="navlink">ABOUT</Nav>
+            <Nav  className="navlink">PROJECTS</Nav>
+            <Nav  className="navlink">SKILLS</Nav>
+            <Nav  className="navlink">CONTACT</Nav>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
