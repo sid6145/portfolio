@@ -1,27 +1,18 @@
-import React from 'react'
+import React from "react";
+import './style.css'
 
-
-const date = new Date()
-
+const date = new Date();
 
 function Footer() {
-    return (
-      
-        <footer style={{
-            position:"relative", 
-            bottom:"0", 
-            fontSize: "15px",
-            textAlign:"center", 
-            width:"100%", 
-            padding:"10px 5px", 
-            backgroundColor:"#1F3C88",
-            color:"#DBEDF3"
-            }}>
-
-                Siddhant Deshmukh {date.getFullYear()}
-
-        </footer>
-    )
+  return (
+    <footer>
+      Siddhant Deshmukh {date.getFullYear()}
+      <div className="icons-container">
+        <a href="https://github.com/sid6145"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a> 
+         <a href="https://www.linkedin.com/in/deshmukhsiddhant/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" /></a>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

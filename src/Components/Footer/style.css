@@ -1,0 +1,20 @@
+footer{
+    position: relative;
+    bottom: 0;
+    font-size: 15px;
+    text-align:center;
+    width: 100%;
+    padding: 15px 5px;
+    background-color: #1F3C88;
+    color:#DBEDF3;
+}
+
+.icons-container{
+    padding: 5px 0 ;
+}
+
+.icons-container img{
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
