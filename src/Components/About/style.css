@@ -1,4 +1,4 @@
-.about-container{
+ .about-container{
     min-height: 100vh;
     padding: 100px 150px;
 
@@ -23,11 +23,11 @@
     box-shadow: 1px 1px 3px black;
 }
 
-p{
+.about-text{
     font-size: 25px;
     margin: 0 100px;
     text-align: start;
-}
+} 
 
 
 
@@ -45,10 +45,10 @@ p{
     padding: 50px 0;
 }
 
-p{
+.about-text{
     font-size: 20px;
     margin: 0 5px;
     text-align: start;
 }
 
-}
+} 

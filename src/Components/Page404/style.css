@@ -1,0 +1,11 @@
+.page404-container{
+    min-height: 100vh;
+    padding: 50px 50px;
+}
+
+.page404-container img{
+    position: absolute;
+    width: 50%;
+    left: 26%;
+    z-index: 1;
+}

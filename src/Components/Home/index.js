@@ -14,7 +14,6 @@ function Home() {
         <button className="btn btn-about">About me</button>
         <button className="btn btn-project">My projects</button>
         </div>
- 
     </div>
   );
 }

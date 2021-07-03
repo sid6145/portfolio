@@ -5,8 +5,3 @@
 .App{
   background-color: #F6F5F5;
 }
-
-::-webkit-scrollbar-track{
-width: 5px;
-background-color: red;
-}
