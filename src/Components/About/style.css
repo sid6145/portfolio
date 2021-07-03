@@ -1,0 +1,54 @@
+.about-container{
+    min-height: 100vh;
+    padding: 100px 150px;
+
+}
+
+.about-img{
+    width: 50%;
+    height: auto;
+    padding: 50px 20px;
+}
+
+.about-btn{
+    margin-top: 50px;
+    padding: 20px 20px ;
+    border-radius: 10px;
+    background-color: #EE6F57 ;
+    color: #F6F5F5;
+    border: none;
+}
+
+.about-btn:hover{
+    box-shadow: 1px 1px 3px black;
+}
+
+p{
+    font-size: 25px;
+    margin: 0 100px;
+    text-align: start;
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+.about-container{
+        min-height: 100vh;  
+        padding: 0 30px;
+    
+    }
+
+    
+.about-img{
+    width: 50%;
+    padding: 50px 0;
+}
+
+p{
+    font-size: 20px;
+    margin: 0 5px;
+    text-align: start;
+}
+
+}
