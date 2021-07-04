@@ -6,6 +6,7 @@
 .page404-container img{
     position: absolute;
     width: 50%;
+    height: auto;
     left: 26%;
     z-index: 1;
 }
