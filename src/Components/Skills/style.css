@@ -1,0 +1,30 @@
+.skills-container{
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.skill-list{
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.skill-list img{
+    width: 150px ;
+    height: 150px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+
+.skill-list img:hover{
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.skill{
+    margin: 20px;   
+}
