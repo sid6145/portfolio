@@ -26,7 +26,7 @@ function Projects() {
         </div>
         <div className="project-card">
             <h2>Mental Health</h2>
-            <p>Mental Health website where users can book appointment with therapists and also has 
+            <p>Mental Health website where users can book appointments with therapists and also has 
                 a community page where users can post their experiences. Made with MERN Stack
             </p>
         </div>

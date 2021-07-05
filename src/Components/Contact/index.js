@@ -1,9 +1,11 @@
 import React from 'react'
+import './style.css'
 
 function Contact() {
     return (
-        <div>
-            <h1>contact page</h1>
+        <div className="contact-container">
+            <input className="email-input" type="text" placeholder="enter email id"/>
+            <textarea className="message-input" placeholder="enter your message"/> 
         </div>
     )
 }

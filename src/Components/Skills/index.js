@@ -30,6 +30,10 @@ function Skills() {
                 <img src="images/react.png" />
                 <h3>React Js</h3>
             </div>
+            <div className="skill">
+                <img src="images/mongodb.png" />
+                <h3>mongoDB</h3>
+            </div>
             </div>
         </div>
     )
