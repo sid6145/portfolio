@@ -10,7 +10,7 @@ function Header() {
       <Navbar
         className="px-4 py-3"
         collapseOnSelect
-        expand="sm"
+        expand="md"
         variant="dark"
         style={{ backgroundColor: "#070D59" }}
       >
