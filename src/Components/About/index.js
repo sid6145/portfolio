@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './style.css'
 
 function About() {
@@ -19,7 +20,10 @@ function About() {
 
             </div>
            
-             <button className="about-btn">My Projects</button>
+           <Link to="/projects">
+            <button className="about-btn">My Projects</button>
+           </Link>
+             
         </div>
     )
 }

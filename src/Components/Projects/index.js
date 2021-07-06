@@ -17,7 +17,7 @@ function Projects() {
         <div className="project-card">
             <h2>Movie Website</h2>
             <p>Movie website built with React.js similar to IMDB.</p>
-            <button className="project-btn">Source Code</button>
+           <a href="https://github.com/sid6145/movie-website"><button className="project-btn">Source Code</button></a>
         </div>
         <div className="project-card">
             <h2>Black Jack</h2>
@@ -27,7 +27,7 @@ function Projects() {
         <div className="project-card">
             <h2>Image Puzzle</h2>
             <p>Image puzzle made with HTML5, CSS3 and Vanilla JavaScript</p>
-           <a href="https://github.com/exponentsoftware/MS_Grid-game_Aquila_Tep_Online_Full-time_2021_4"><button className="project-btn">Source Code</button></a> 
+           <a href="https://github.com/sid6145/grid-game"><button className="project-btn">Source Code</button></a> 
         </div>
         <div className="project-card">
             <h2>Mental Health</h2>

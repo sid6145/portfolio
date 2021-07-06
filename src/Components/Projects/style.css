@@ -33,4 +33,10 @@
     border: none;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
+    transition: 0.4s ease;
+}
+.project-btn:hover{
+background-color: white;
+color: #EE6F57;
+box-shadow: 2px 2px 8px black;
 }
